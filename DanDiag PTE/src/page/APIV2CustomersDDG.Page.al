@@ -11,6 +11,7 @@ page 50202 "APIV2 - Customers DDG"
     SourceTable = Customer;
     APIPublisher = 'knowledgePartner';
     APIGroup = 'ddg';
+    ODataKeyFields = SystemId;
 
     layout
     {
