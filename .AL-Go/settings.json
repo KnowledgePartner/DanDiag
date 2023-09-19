@@ -4,7 +4,6 @@
   "testFolders": [],
   "bcptTestFolders": [],
   "installApps": [
-    "Dandiag API\\Dependencies\\Logic Partner_DandiagMods_1.0.0.0.app",
-    "Dandiag API\\Dependencies\\Microsoft__Exclude_APIV2__22.5.59966.60300.app"
+    "Dandiag API\\Dependencies\\Logic Partner_DandiagMods_1.0.0.0.app"
   ]
 }
