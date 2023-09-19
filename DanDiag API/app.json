@@ -1,6 +1,6 @@
 {
   "id": "ff329d9b-d241-4a87-9ff7-359511f376bf",
-  "name": "DanDiag PTE",
+  "name": "Dandiag API",
   "publisher": "Knowledge Partner A/S",
   "version": "1.0.0.0",
   "brief": "",
@@ -10,7 +10,22 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "10cb69d9-bc8a-4d27-970a-9e110e9db2a5",
+      "name": "_Exclude_APIV2_",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "b0a03dab-85bb-43a7-989a-941208dd323b",
+      "name": "DandiagMods",
+      "publisher": "Logic Partner",
+      "version": "1.0.0.0"
+    }
+    
+
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",

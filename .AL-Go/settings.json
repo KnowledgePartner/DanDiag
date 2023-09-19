@@ -2,5 +2,8 @@
   "country": "us",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "installApps": [
+    "Dandiag API\\Dependencies\\Logic Partner_DandiagMods_1.0.0.0.app"
+  ]
 }
