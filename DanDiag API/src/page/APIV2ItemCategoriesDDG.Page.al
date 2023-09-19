@@ -9,6 +9,7 @@ page 50204 "APIV2 - Item Categories DDG"
     EntitySetName = 'itemCategories';
     SourceTable = "Item Category";
     DelayedInsert = true;
+    ODataKeyFields = SystemId;
 
     layout
     {
