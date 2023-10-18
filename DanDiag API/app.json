@@ -10,6 +10,7 @@
   "help": "",
   "url": "",
   "logo": "",
+  "runtime": "11.1",
   "dependencies": [
     {
       "id": "10cb69d9-bc8a-4d27-970a-9e110e9db2a5",
