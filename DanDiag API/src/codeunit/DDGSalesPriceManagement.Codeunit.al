@@ -58,7 +58,7 @@ codeunit 50201 "DDG Sales Price Management"
         TempSalesLine.Validate(Type, TempSalesLine.Type::Item);
         TempSalesLine.Validate("No.", Item."No.");
         TempSalesLine.Validate(Quantity, 1);
-        AddItemToJsonArray(Item."No.", TempSalesLine."Unit Price", JsonArray);
+        AddItemToJsonArray(Item."No.", TempSalesLine."Line Amount", JsonArray);
     end;
 
     local procedure InitSalesHeader(var TempSalesHeader: Record "Sales Header"; Customer: record Customer)
