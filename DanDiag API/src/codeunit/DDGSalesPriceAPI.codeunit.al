@@ -19,11 +19,6 @@ codeunit 50200 "DDG Sales Price API"
         ResponseJson.WriteTo(ReturnValue);
     end;
 
-    procedure Ping(): Text
-    begin
-        exit('Pong');
-    end;
-
     var
         DDGSalesPriceManagement: Codeunit "DDG Sales Price Management";
         ResponseJson: JsonObject;

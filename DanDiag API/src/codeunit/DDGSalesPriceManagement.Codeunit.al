@@ -57,6 +57,7 @@ codeunit 50201 "DDG Sales Price Management"
         TempSalesLine."Line No." := TempSalesLine."Line No." + 10000;
         TempSalesLine.Validate(Type, TempSalesLine.Type::Item);
         TempSalesLine.Validate("No.", Item."No.");
+        TempSalesLine.Validate(Quantity, 1);
         AddItemToJsonArray(Item."No.", TempSalesLine."Unit Price", JsonArray);
     end;
 
