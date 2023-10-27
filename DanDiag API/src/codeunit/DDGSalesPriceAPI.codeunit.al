@@ -1,6 +1,5 @@
 codeunit 50200 "DDG Sales Price API"
 {
-
     procedure calcSalesPriceItemCategory(customerNo: Code[20]; itemCategoryCode: Code[20]) ReturnValue: Text
     var
     begin

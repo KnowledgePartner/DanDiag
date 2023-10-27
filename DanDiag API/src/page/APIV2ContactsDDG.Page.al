@@ -344,7 +344,7 @@ page 50205 "APIV2 - Contacts DDG"
             exit(false);
     end;
 
-    local procedure GetCustomerNo(contact: Record Contact) customerNo: Code[20];
+    local procedure GetCustomerNo(contact: Record Contact): Code[20];
     var
         ContBusRel: Record "Contact Business Relation";
         LinkType: Enum "Contact Business Relation Link To Table";
