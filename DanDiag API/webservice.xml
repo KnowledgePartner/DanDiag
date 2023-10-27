@@ -7,5 +7,11 @@
             <ServiceName>ddgWebServices</ServiceName>
             <Published>true</Published>
         </TenantWebService>
+        <TenantWebService>
+            <ObjectType>CodeUnit</ObjectType>
+            <ObjectID>50202</ObjectID>
+            <ServiceName>ddgWebOrder</ServiceName>
+            <Published>true</Published>
+        </TenantWebService>
     </TenantWebServiceCollection>
 </ExportedData>
