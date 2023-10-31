@@ -241,6 +241,15 @@ page 50206 "APIV2 - Sales Orders DDG"
                         RegisterFieldSet(Rec.FieldNo("Sell-to Contact"));
                     end;
                 }
+                field(sellToContactNo; Rec."Sell-to Contact No.")
+                {
+                    Caption = 'Sell-to Contact No.';
+
+                    trigger OnValidate()
+                    begin
+                        RegisterFieldSet(Rec.FieldNo("Sell-to Contact No."));
+                    end;
+                }
                 field(billToAddressLine1; Rec."Bill-to Address")
                 {
                     Caption = 'Bill-to Address Line 1';
