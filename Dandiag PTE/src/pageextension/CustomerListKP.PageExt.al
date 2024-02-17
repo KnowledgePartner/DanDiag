@@ -24,4 +24,18 @@ pageextension 50300 CustomerListKP extends "Customer List"
             }
         }
     }
+    actions
+    {
+        addafter(ShipToAddresses)
+        {
+            action("Customer Department")
+            {
+                ApplicationArea = All;
+                RunObject = page "Customer Department List KP";
+                RunPageLink = "Customer" = field("No.");
+                Promoted = true;
+                Image = Hierarchy;
+            }
+        }
+    }
 }

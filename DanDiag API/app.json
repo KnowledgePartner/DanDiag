@@ -2,7 +2,7 @@
   "id": "ff329d9b-d241-4a87-9ff7-359511f376bf",
   "name": "Dandiag API",
   "publisher": "Knowledge Partner",
-  "version": "2.7.0.0",
+  "version": "2.8.1.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -10,7 +10,7 @@
   "help": "",
   "url": "",
   "logo": "",
-  "runtime": "11.1",
+  "runtime": "12.0",
   "dependencies": [
     {
       "id": "10cb69d9-bc8a-4d27-970a-9e110e9db2a5",
@@ -23,6 +23,12 @@
       "name": "DandiagMods",
       "publisher": "Logic Partner",
       "version": "1.0.0.0"
+    },
+    {
+      "id": "5f67e37f-7bef-4e88-91af-3ee266340aef",
+      "name": "Dandiag PTE",
+      "publisher": "Knowledge Partner",
+      "version": "2.7.1.0"
     }
   ],
   "screenshots": [],
