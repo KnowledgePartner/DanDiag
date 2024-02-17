@@ -9,7 +9,11 @@ pageextension 50301 SalesOrderListKP extends "Sales Order List"
                 ApplicationArea = All;
                 ToolTip = 'DDG Servicereport No.';
             }
-
+            field("Customer Department KP"; Rec."Customer Department KP")
+            {
+                ApplicationArea = All;
+                Importance = Standard;
+            }
         }
     }
 }
