@@ -10,6 +10,11 @@ pageextension 50302 CustomerLookupKP extends "Customer Lookup"
                 Caption = 'GLN';
                 Tooltip = 'GLN';
             }
+            field("Address 2"; Rec."Address 2")
+            {
+                ApplicationArea = All;
+            }
+
         }
     }
 }
