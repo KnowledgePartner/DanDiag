@@ -150,6 +150,30 @@ page 50202 "APIV2 - Customers DDG"
                 {
                     Caption = 'Last Modified Date';
                 }
+
+                field(gln; Rec.GLN)
+                {
+                    ApplicationArea = All;
+                    Caption = 'GLN';
+                }
+
+                field(name2; rec."Name 2")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Name 2';
+                }
+
+                field(billToCustomerNo; rec."Bill-to Customer No.")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Bill-to Customer No.';
+                }
+
+                field(contact; Rec.Contact)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Contact';
+                }
                 part(customerFinancialDetails; "APIV2 - Cust Financial Details")
                 {
                     Caption = 'Customer Financial Details';
