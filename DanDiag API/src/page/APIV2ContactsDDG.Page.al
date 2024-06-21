@@ -226,6 +226,16 @@ page 50205 "APIV2 - Contacts DDG"
                 {
                     Caption = 'Customer No.';
                 }
+
+                field(customerDepartment; Rec."Customer Department KP")
+                {
+                }
+
+                field(initials; Rec.Initials)
+                {
+                }
+
+
                 part(picture; "APIV2 - Pictures")
                 {
                     Caption = 'Picture';
@@ -233,6 +243,13 @@ page 50205 "APIV2 - Contacts DDG"
                     EntityName = 'picture';
                     EntitySetName = 'pictures';
                     SubPageLink = Id = Field(SystemId), "Parent Type" = const(Contact);
+                }
+                part(customerDepartments; "APIV2 - Customer Departments")
+                {
+                    Caption = 'Customer Departments';
+                    EntityName = 'customerDepartmentDDG';
+                    EntitySetName = 'customerDepartmentsDDG';
+                    SubPageLink = Customer = field("No."), Code = field("Customer Department KP");
                 }
             }
         }

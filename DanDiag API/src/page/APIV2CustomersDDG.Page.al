@@ -205,11 +205,11 @@ page 50202 "APIV2 - Customers DDG"
                     EntitySetName = 'agedAccountsReceivables';
                     SubPageLink = AccountId = Field(SystemId);
                 }
-                part(contactsInformation; "APIV2 - Contacts Information")
+                part(contactsInformation; "APIV2 - Contacts Info. DDG")
                 {
                     Caption = 'Contacts Information';
-                    EntityName = 'contactInformation';
-                    EntitySetName = 'contactsInformation';
+                    EntityName = 'contactInformationDDG';
+                    EntitySetName = 'contactsInformationDDG';
                     SubPageLink = "Related Id" = field(SystemId), "Related Type" = const(Customer);
                 }
                 part(documentAttachments; "APIV2 - Document Attachments")
@@ -218,6 +218,13 @@ page 50202 "APIV2 - Customers DDG"
                     EntityName = 'documentAttachment';
                     EntitySetName = 'documentAttachments';
                     SubPageLink = "Document Id" = Field(SystemId), "Document Type" = const(Customer);
+                }
+                part(customerDepartments; "APIV2 - Customer Departments")
+                {
+                    Caption = 'Customer Departments';
+                    EntityName = 'customerDepartmentDDG';
+                    EntitySetName = 'customerDepartmentsDDG';
+                    SubPageLink = Customer = field("No.");
                 }
             }
         }
