@@ -1,7 +1,3 @@
-namespace Microsoft.API.V2;
-
-using Microsoft.CRM.Contact;
-
 page 50208 "APIV2 - Customer Departments"
 {
     APIVersion = 'v2.0';

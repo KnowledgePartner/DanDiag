@@ -1,7 +1,3 @@
-namespace Microsoft.API.V2;
-
-using Microsoft.CRM.Contact;
-
 page 50207 "APIV2 - Contacts Info. DDG"
 {
     APIVersion = 'v2.0';
